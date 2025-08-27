@@ -1,0 +1,15 @@
+{
+  "name": "Mascotes Turmas",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
